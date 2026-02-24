@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IP - Rede Mitic</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<nav class="menu">
+  <div class="logo">💜 Rede Mitic</div>
+
+  <div class="menu-links">
+    <a href="index.html">Loja</a>
+    <a href="regras.html">Regras</a>
+    <a href="novidades.html">Novidades</a>
+    <a href="ip.html">IP</a>
+  </div>
+
+  <div class="menu-spacer"></div> <!-- Isso garante a centralização perfeita -->
+</nav>
+
+<div class="section">
+
+<h1>🌍 Conecte-se Agora</h1>
+
+<div class="ip-box">
+  <span id="ip">redemitic.aternos.me</span>
+  <button onclick="copiarIP()">Copiar IP</button>
+</div>
+
+<p class="ip-info">
+Servidor Minecraft Java Edition<br>
+Entre agora e jogue com seus amigos!
+</p>
+
+</div>
+
+<script>
+function copiarIP(){
+  const ip = "Em breve";
+  navigator.clipboard.writeText(ip);
+  alert("🌍 IP copiado: " + ip);
+}
+</script>
+
+</body>
+</html>
